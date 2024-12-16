@@ -133,4 +133,3 @@ async def api(item: Item):
         print("It is not possible to use an LLM.")
 
     return {"context": list_res, "answer": response}
-
